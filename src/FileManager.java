@@ -141,7 +141,6 @@ public class FileManager {
             System.err.format("NumberFormatException: Файл содержит недопустимые значения");
         }
         finally {
-            arrayList.stream().forEach(s -> System.out.println(s));
                 if(isSorted==false) System.out.println("Входной файл не отсортирован " + path);
             //throw new IOException("Файл " +path+ " не отсортирован \nФайл считан до момента появления ошибочных элементов");
         }
